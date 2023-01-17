@@ -1,0 +1,109 @@
+nav {
+    background-color: rgba(214, 214, 214, 0.127);
+    align-items: center;
+
+    margin: 20px;
+    padding: 14px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    width: 100px;
+    text-align: left;
+    display: inline;
+    padding: 8px;
+    margin: 8px;
+    border: 0.2px rgba(255, 255, 255, 0.441);
+}
+
+body {
+    background: rgb(255, 255, 255) center/cover url('../Images/Untitled.jpeg') fixed;
+}
+
+main {
+    width: 70%;
+    background-color: rgba(214, 214, 214, 0.127);
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+article {
+    width: 60%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+img_article {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+
+    text-decoration: solid;
+}
+
+main p {
+    color: #ffffff;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+li::before {
+    content: "• ";
+    color: white;
+    /* or whatever color you prefer */
+}
+
+main a:link {
+    color: white;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: white;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/JavaScript">
+    function f()
+    {
+       alert("Salut, merci d'avoir consulté mon CV, j'espère que vous aimerai mon profil." );    
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link href="Css/style.css" rel="stylesheet">
+</head>
+
+<!--<body onload="f();" onclick="">-->
+    <body>
+    <nav>
+        <a href="Page1.html">ACCEUIL</a>
+        <a href="Html_Pages/about me.html">A PROPOS DE MOI</a>
+        <a href="Html_Pages/diplômes.html">MES DIPLÔMES</a>
+        <a href="Html_Pages/compétences.html">MES COMPÉTENCES</a>
+        <a href="Html_Pages/Satges.html">MES EXPÉRIENCES PROFESSIONNELLES</a>
+        <a href="Html_Pages/Quiz.html">VOULEZ VOUS JOUER AVEC MOI ?</a>
+
+    </nav>
+    <!-- L'EN-TETE du CV -->
+    <header>
+        <table CLASS=table1>
+            <tr>
+                <td style="width: 30%;">
+                    <img CLASS="imagecv"
+                        src="Images/Photo Cv.jpg">
+                </td>
+                <td style="width: 60%; ">
+                    <H1>Yassine BAKLOUTI</H1>
+                    <P CLASS=age>
+                        <script type="text/JavaScript">
+                                    var today = new Date();
+                                    var yyyy = today.getFullYear()
+                                    year=1999
+                                document.write(yyyy-year) ;
+                                </script>
+                    </P>
+
+                    <P CLASS=specialite>ÉTUDIANT EN 1ERE ANNÉE CYCLE D'INGÉNIEURS</P>
+
+                    <br><br><br>
+                    <DIV CLASS="adresse">
+                        <table CLASS=interntablephone>
+                            <tr>
+                                <td><img CLASS="imagephone"
+                                        src="Images/phone.png"
+                                        style="filter: invert(100%) sepia(0%) saturate(7434%) hue-rotate(296deg) brightness(105%) contrast(88%);">
+                                </td>
+                                <td> <p>51650010</p></td>
+                            </tr>
+                        </table>Rue de l'a&eacute;roport Safx ,Tunisie<br>BP: 4799<br> 3078 Sfax <br>
+                        <!--   <a Class="mail" href="mailto:bakloutiyassine.iit@gmail.com">bakloutiyassine.iit@gmail.com</a> -->
+                    </DIV>
+                </td>
+
+                <!--  <td style="width: 10%;"><a href="https://iit.tn/"><img CLASS="imageiit"src="C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Examen curriculum vitae Yassine BAKLOUTI\Images\logoISB1-1.jpg"></a></td>-->
+                <td style=" width: 10%; ">
+                    <a href="mailto:bakloutiyassine.iit@gmail.com"><img CLASS="imageemail"
+                            src="Images/email.png"
+                            style="filter: invert(100%) sepia(0%) saturate(7434%) hue-rotate(296deg) brightness(105%) contrast(88%);"></a>
+                    <br>
+
+                    <a href="https://www.linkedin.com/in/yassine-baklouti-346842225/"><img CLASS="imagelinkedin"
+                            src="Images/linkedin.png"
+                            style="filter: invert(100%) sepia(0%) saturate(7434%) hue-rotate(296deg) brightness(105%) contrast(88%);"></a>
+                    <br>
+                    <a href="https://github.com/Yassine99BAKLOUTI"><img CLASS="imagegit"
+                            src="Images/github.png"
+                            style="filter: invert(100%) sepia(0%) saturate(7434%) hue-rotate(296deg) brightness(105%) contrast(88%);"></a>
+
+
+                </td>
+            </tr>
+
+        </table>
+    </header>
+</body>
+
+</html>

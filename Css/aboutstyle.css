@@ -1,0 +1,73 @@
+ body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background: rgb(255, 255, 255) center/cover url('../Images/Untitled.jpeg') fixed;
+     margin: 60px;
+ }
+
+ html {
+     box-sizing: border-box;
+ }
+
+ nav {
+     background-color: rgba(214, 214, 214, 0.127);
+     align-items: center;
+     margin: 20px;
+     padding: 14px;
+ }
+
+ nav a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     width: 100px;
+     text-align: left;
+     display: inline;
+     padding: 8px;
+     margin: 8px;
+     border: 0.2px rgba(255, 255, 255, 0.441);
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ .about-section {
+     padding: 50px;
+     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     text-indent: 1%;
+ }
+
+ .column {
+     float: left;
+     width: 33.3%;
+     height: 33.3%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 0 8px;
+     padding-bottom: 0 8px;
+     padding-top: 0 8px;
+ }
+
+ .card {
+     background-color: rgba(214, 214, 214, 0.127);
+     box-shadow: rgba(0, 0, 0, 0.2);
+     margin: 5%;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     padding-left: 5%;
+     padding-right: 5%;
+     background-color: rgba(214, 214, 214, 0.127);
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ @media screen and (max-width: 650px) {
+     .column {
+         width: 100%;
+         display: block;
+     }
+ }
